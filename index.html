@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  ** Icons File ** -->
+    <link href="imgs/favicon.png" rel="Icon" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- ** CSS Files ** -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- ** Font Family ** -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Plumberon</title>
+  </head>
+  <body data-bs-spy="scroll">
+    <!-- ======================= Header ==================== -->
+    <header class="w-100 position-relative">
+      <div
+        class="container d-flex justify-content-between align-items-center pt-4 header-top"
+      >
+        <div><h2 class="fw-bold logo">plumberon</h2></div>
+        <div class="d-flex justify-content-center">
+          <div
+            class="social-icons d-flex justify-content-between align-items-center px-4 me-4"
+          >
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook-f me-4"></i
+            ></a>
+            <a href="https://x.com/home?lang=en" target="_blank"
+              ><i class="fa-brands fa-twitter me-4"></i
+            ></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <button type="submit" class="button ms-1 px-4 py-2">
+            Get an Appointment
+          </button>
+        </div>
+      </div>
+
+      <!-- ======================= Navbar inside header ==================== -->
+      <nav class="navbar navbar-expand-md container">
+        <div class="w-100 d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <button
+              class="navbar-toggler ms-3"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars text-white"></i>
+            </button>
+            <div
+              class="collapse navbar-collapse ms-4"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle custom-arrow"
+                    href="#service"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Service
+                    <i class="fa-solid fa-chevron-down ms-1"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Drop down item 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Drop down item 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle custom-arrow"
+                    href="#page"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Page
+                    <i class="fa-solid fa-chevron-down ms-1"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">dropdwn1</a></li>
+                    <li><a class="dropdown-item" href="#">dropdwn2</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="phone-box d-flex align-items-center px-3 me-3">
+            <div
+              class="phone-icon d-flex align-items-center justify-content-center"
+            >
+              <i class="fa-solid fa-phone-volume fs-3"></i>
+            </div>
+            <div class="ms-2">
+              <span class="mini-title small d-block text-end"
+                >Emergency 24/7</span
+              >
+              <p class="m-0 text-white">+(62)21 2002-2012</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ======================= Home Section ==================== -->
+    <main class="home-section" id="home">
+      <div class="container">
+        <div class="row gy-5 gx-5 align-items-center pt-4">
+          <!-- Left Side -->
+          <div class="col-md-6">
+            <div class="home-txt d-flex flex-column justify-content-start pt-2">
+              <div>
+                <h1 class="fw-bold text-white">We are the plumbing experts.</h1>
+                <p class="py-3 text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consectetur, cupiditate!
+                </p>
+                <a href="#about" class="button px-4 py-2">Discover More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side -->
+          <div class="col-md-6">
+            <div class="home-form ps-3">
+              <form action="post" class="bg-white px-5 py-4">
+                <h3 class="fw-bold pt-3">Get an Appointment</h3>
+                <p class="py-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                  culpa eos itaque expedita quas omnis similique dolorum fugiat.
+                </p>
+                <div class="row gx-3 gy-3">
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Name"
+                      class="form-control py-2"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="tel"
+                      name="phone"
+                      id="phone"
+                      placeholder="Phone"
+                      class="form-control py-2"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                      class="form-control py-2"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <input
+                      type="text"
+                      name="date"
+                      id="date"
+                      placeholder="Date"
+                      class="form-control py-2"
+                    />
+                  </div>
+
+                  <div class="col-12">
+                    <textarea
+                      rows="5"
+                      placeholder="Your Message"
+                      name="Message"
+                      id="Message"
+                      class="form-control"
+                    ></textarea>
+                  </div>
+                  <div class="text-start">
+                    <button type="button" class="button px-4 py-2 w-100">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ======================= About Section ==================== -->
+    <section class="abt-section" id="about">
+      <div class="container">
+        <div class="row gy-5 gx-5 align-items-center pt-4">
+          <!-- Left Side -->
+          <div class="col-md-6">
+            <div class="abt-left position-relative">
+              <img
+                src="./imgs/slider2.jpg"
+                class="position-absolute"
+                alt="About Section Img"
+              />
+            </div>
+          </div>
+
+          <!-- Right Side -->
+          <div class="col-md-6">
+            <div class="abt-right">
+              <span class="mini-title small">About Us</span>
+              <h2 class="fw-bold my-4">
+                Profssional Plumbing now in your Budget.
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Recusandae nisi, perspiciatis quaerat exercitationem odit ea
+                modi, minima beatae quam, aperiam architecto iste explicabo
+                culpa dolorem?
+              </p>
+              <div class="row mt-4">
+                <ul class="col-md-6">
+                  <li>
+                    <i class="fa-solid fa-check"></i> Lorem sem dolor nec libero
+                  </li>
+                  <li><i class="fa-solid fa-check"></i> Porta pulvinar</li>
+                  <li><i class="fa-solid fa-check"></i> Inceptos vel eget</li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> Congue aliquam aptent
+                  </li>
+                </ul>
+                <ul class="col-md-6">
+                  <li>
+                    <i class="fa-solid fa-check"></i> Lorem sem dolor nec libero
+                  </li>
+                  <li><i class="fa-solid fa-check"></i> Porta pulvinar</li>
+                  <li><i class="fa-solid fa-check"></i> Inceptos vel eget</li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> Congue aliquam aptent
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-5 gx-5 py-5 my-5">
+          <div class="col-md-3">
+            <div class="inner d-flex justify-content-evenly align-items-center">
+              <img
+                src="./imgs/icons/icons8-customers-64.png"
+                alt="Customers Icon"
+              />
+              <div class="details">
+                <h2 class="fw-bold mb-0 text-end">
+                  8,714
+                  <img src="./imgs/icons/icons8-plus-15.png" alt="Plus Icon" />
+                </h2>
+                <span class="small">Happy Customer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="inner d-flex justify-content-evenly align-items-center">
+              <i class="bi bi-buildings"></i>
+              <div class="details">
+                <h2 class="fw-bold mb-0 text-end">
+                  1,211
+                  <img src="./imgs/icons/icons8-plus-15.png" alt="Plus Icon" />
+                </h2>
+                <span class="small">Provide Apartment</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="inner d-flex justify-content-evenly align-items-center">
+              <img
+                src="./imgs/icons/icons8-school-building-64.png"
+                alt="Building Icon"
+              />
+              <div class="details">
+                <h2 class="fw-bold mb-0 text-end">
+                  1,244
+                  <img src="./imgs/icons/icons8-plus-15.png" alt="Plus Icon" />
+                </h2>
+                <span class="small">Home Served</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="inner d-flex justify-content-evenly align-items-center">
+              <img
+                src="./imgs/icons/icons8-worker-64.png"
+                alt="Building Icon"
+              />
+              <div class="details">
+                <h2 class="fw-bold mb-0 text-end">
+                  174
+                  <img src="./imgs/icons/icons8-plus-15.png" alt="Plus Icon" />
+                </h2>
+                <span class="small">Professional</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Fluid About Section ==================== -->
+    <section>
+      <div class="container-fluid fluid-abt px-0">
+        <div class="row gx-0 align-items-stretch">
+          <!-- video Side -->
+          <div class="col-md-6">
+            <div class="video w-100 h-100">
+              <iframe
+                src="https://www.youtube.com/embed/3Ov9I8-C6j0?si=m73gTYpMbb_v25Fx"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                class="w-100 h-100 d-block"
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- txt Side -->
+          <div
+            class="col-md-6 d-flex align-items-center bg-blue text-white px-4 py-5"
+          >
+            <div class="txt-content ps-md-5">
+              <h2 class="fw-bold mb-4 text-white">
+                Solving things beyond expectations
+              </h2>
+              <p class="mb-3 text-white small">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia ab amet nam possimus dolore id nostrum, fugiat ipsum
+                debitis adipisci. Laborum aliquid ullam, cupiditate illum
+                tempora
+              </p>
+              <button class="button px-4 py-2 mt-3">Discover More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Service Section ==================== -->
+    <section class="service-section" id="service">
+      <div class="container pt-5 mt-5">
+        <span class="mini-title fw-bold small">What we offer</span>
+        <div class="row my-3 gy-2 gx-3 position-relative services-txt">
+          <div class="col-md-6">
+            <h2 class="fw-bold">Services without limits</h2>
+          </div>
+          <div class="col-md-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              minima quidem quisquam nihil sapiente quaerat!
+            </p>
+          </div>
+        </div>
+        <div class="boxes pt-5">
+          <div class="row g-4">
+            <div class="col-md-3">
+              <div class="inner p-3">
+                <img
+                  src="./imgs/icons/settings.png"
+                  alt="Repairs Icon"
+                  class="mb-3"
+                />
+                <h5>Service & Repairs</h5>
+                <p>
+                  Sodales molestie bibendum faucibas amet labortis nunc nullam
+                  dignissim suscipit dictum fermentum
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="inner p-3">
+                <img
+                  src="./imgs/icons/spanner.png"
+                  alt="Spanner Icon"
+                  class="mb-3"
+                />
+                <h5>Installation & Replace</h5>
+                <p>
+                  Sodales molestie bibendum faucibas amet labortis nunc nullam
+                  dignissim suscipit dictum fermentum
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="inner p-3">
+                <img src="./imgs/icons/leak.png" alt="Leak Icon" class="mb-3" />
+                <h5>Facket & Leak Repair</h5>
+                <p>
+                  Sodales molestie bibendum faucibas amet labortis nunc nullam
+                  dignissim suscipit dictum fermentum
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="inner p-3">
+                <img
+                  src="./imgs/icons/leaking-water.png"
+                  class="mb-3"
+                  alt="Drain Icon"
+                />
+                <h5>Drain Cleaning</h5>
+                <p>
+                  Sodales molestie bibendum faucibas amet labortis nunc nullam
+                  dignissim suscipit dictum fermentum
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Choose us Section ==================== -->
+    <section class="choose-us-section py-5">
+      <div class="container">
+        <div class="row g-2">
+          <div class="col-md-6">
+            <span class="mini-title small">Why choose us</span>
+            <h2 class="fw-bold my-3">Providing friendly plumbing services</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
+              eum reiciendis sit molestiae error cumque?
+            </p>
+            <div class="cards">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="inner bg-white p-4">
+                    <img
+                      src="./imgs/icons/rating_avatar_icon.png"
+                      alt="Rating Avatar Icon"
+                      class="mb-3"
+                    />
+                    <h5>Trusted company</h5>
+                    <p>
+                      Sodales molestie bibendum faucibas amet labortis nunc
+                      nullam dignissim suscipit dictum fermentum
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="inner bg-white p-4">
+                    <img
+                      src="./imgs/icons/icons8-worker2-64.png"
+                      alt="Worker Icon"
+                      class="mb-3"
+                    />
+                    <h5>Experienced</h5>
+                    <p>
+                      Sodales molestie bibendum faucibas amet labortis nunc
+                      nullam dignissim suscipit dictum fermentum
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="inner bg-white p-4">
+                    <img
+                      src="./imgs/icons/icons8-certified-64.png"
+                      alt="Certification Icon"
+                      class="mb-3"
+                    />
+                    <h5>Certified Worker</h5>
+                    <p>
+                      Sodales molestie bibendum faucibas amet labortis nunc
+                      nullam dignissim suscipit dictum fermentum
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="inner bg-white p-4">
+                    <img
+                      src="./imgs/icons/icons8-solve-64.png"
+                      alt="Q/A Icon"
+                      class="mb-3"
+                    />
+                    <h5>24/7 Support</h5>
+                    <p>
+                      Sodales molestie bibendum faucibas amet labortis nunc
+                      nullam dignissim suscipit dictum fermentum
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="abt-left choose-us-stack position-relative">
+              <img
+                src="./imgs/about.jpg"
+                class="position-absolute"
+                alt="Profile Img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Contact Section ==================== -->
+    <section class="contact-section" id="contact">
+      <div class="layer">
+        <div class="overlay"></div>
+        <div class="container text-center contact-txt my-5 py-5">
+          <h1 class="text-white fw-bold">
+            Creating happy customers from <br />our services
+          </h1>
+          <p class="text-white my-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            dicta quidem voluptatum repudiandae repellendus fuga possimus
+            quibusdam numquam laborum corporis?
+          </p>
+          <button type="submit" class="button px-4 py-2">Contact Us</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Testimonial Section ==================== -->
+    <section class="testimonial-section py-5 my-5">
+      <div class="container">
+        <div class="text-center">
+          <small class="mini-title small">Testimonial</small>
+          <h2 class="fw-bold my-3">What They Say</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="row gy-3 gx-3 mt-2 testimonial-cards">
+          <div class="col-md-4">
+            <div class="inner text-center p-5 position-relative">
+              <div class="quote-icon p-3">
+                <img
+                  src="./imgs/icons/icons8-quote-left-80.png"
+                  alt="Quote Left Icon"
+                />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                dicta minus impedit mollitia, optio, quidem dolore sequi libero
+                unde odio facere vitae nihil.
+              </p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="pfp position-absolute">
+                <img src="./imgs/two.png" alt="Profile Pic" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner text-center p-5 position-relative">
+              <div class="quote-icon p-3">
+                <img
+                  src="./imgs/icons/icons8-quote-left-80.png"
+                  alt="Quote Left Icon"
+                />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                dicta minus impedit mollitia, optio, quidem dolore sequi libero
+                unde odio facere vitae nihil.
+              </p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="pfp position-absolute">
+                <img src="./imgs/two.png" alt="Profile Pic" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="inner text-center p-5 position-relative">
+              <div class="quote-icon p-3">
+                <img
+                  src="./imgs/icons/icons8-quote-left-80.png"
+                  alt="Quote Left Icon"
+                />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                dicta minus impedit mollitia, optio, quidem dolore sequi libero
+                unde odio facere vitae nihil.
+              </p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="pfp position-absolute">
+                <img src="./imgs/two.png" alt="Profile Pic" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======================= Footer ==================== -->
+    <footer class="container-fluid">
+      <div class="container footer-title position-relative py-5">
+        <h4 class="text-white text-center mt-4">plumberon</h4>
+      </div>
+      <div class="container mt-2">
+        <div class="d-flex justify-content-between align-items-center">
+          <div
+            class="socials d-flex justify-content-evenly align-items-center px-4 me-4"
+          >
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fa-brands fa-facebook-f me-4"></i
+            ></a>
+            <a href="https://x.com/home?lang=en" target="_blank"
+              ><i class="fa-brands fa-twitter me-4"></i
+            ></a>
+            <a href="https://www.youtube.com" target="_blank"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+          <div class="copyright">
+            <p class="text-white">
+              Copyright @ 2021 Plumberon, All rights reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
