@@ -216,14 +216,19 @@ nav .nav-link {
 
 .abt-left {
   background-color: var(--secondary-color);
-  width: 27rem;
-  height: 27rem;
+  width: 100%;
+  max-width: 27rem;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  margin: auto;
 }
 
 .abt-left img {
   left: -16px;
   top: -10px;
-  width: 26rem;
+  width: 100%;
+  max-width: 26rem;
+  height: auto;
 }
 
 .abt-right {
@@ -297,15 +302,20 @@ nav .nav-link {
 .choose-us-stack {
   top: 9%;
   left: 10%;
-  width: 30rem;
-  height: 39rem;
+  max-width: 30rem;
+  height: 38rem;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  margin: auto;
 }
 
 .choose-us-stack > img {
-  width: 30rem;
-  height: 38rem;
+  max-width: 30rem;
+  width: 100%;
+  height: auto;
   top: -16px;
   left: -30px;
+  object-fit: cover;
 }
 
 /*==================== Contact Styles ====================*/
